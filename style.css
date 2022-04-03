@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-texto: #667085;
+  --color-titulo: #101828;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--color-texto);
+}
+
+/*======== NAVBAR =====*/
+
+section {
+  width: 100vw;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  height: 5rem;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  /*background-color: antiquewhite;*/
+}
+
+.logo a {
+  margin-left: 7rem;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo span {
+  margin-left: 0.5rem;
+  color: #3A404E;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  color: var(--color-texto);
+  text-decoration: none;
+}
+
+.button {
+  margin-right: 7rem;
+  display: flex;
+  gap: 1.87rem;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.button .entrar {
+  color: var(--color-texto);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.button .cadastrar {
+  padding: 10px 18px;
+  color: white;
+  background: #8E2424;
+  border-radius: 8px;
+}
+
+/*========== Sobre nós ==========*/
+
+.sobrenos {
+  margin-top: 6rem;
+  text-align: center;
+}
+
+.sobrenos .span {
+  font-size: 1rem;
+  color: #8E2424;
+  font-weight: 600;
+}
+
+.sobrenos .titulo {
+  margin: 1.5rem 0 1.5rem 0;
+  font-size: 2.3rem;
+  color: var(--color-titulo);
+}
